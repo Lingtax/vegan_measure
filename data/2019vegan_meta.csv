@@ -1,0 +1,137 @@
+import name,var_name,item_text,response_format,resp_min,resp_max,resp_labels,units,reverse,factor,scale_cite
+start_date,start_date,NA,NA,NA,,NA,,NA,NA,NA
+end_date,end_date,NA,NA,NA,,NA,,NA,NA,NA
+status,status,NA,NA,NA,,NA,,NA,NA,NA
+progress,progress,NA,NA,NA,,NA,,NA,NA,NA
+duration_in_seconds,duration_in_seconds,NA,NA,NA,,NA,,NA,NA,NA
+finished,finished,NA,NA,NA,,NA,,NA,NA,NA
+recorded_date,recorded_date,NA,NA,NA,,NA,,NA,NA,NA
+response_id,response_id,NA,NA,NA,,NA,,NA,NA,NA
+user_language,user_language,NA,NA,NA,,NA,,NA,NA,NA
+q1,age,How old are you (in years)?,numeric_free,NA,NA,NA,,NA,NA,NA
+q2,gender,What Gender do you identify as?,likert,NA,NA,NA,,NA,NA,NA
+q2_3_text,gender_text,Not listed (please specify),text_free,NA,NA,NA,,NA,NA,NA
+q3_1,location,"Using the slider below, how would you describe where you live? ",slider,1,10,1 (Within a major city) 10 (In a rural area),,NA,NA,NA
+q4,education,What is the highest level of education you have completed? ,likert,1,7,1 (Less than high school) 2 (High school graduate) 3 (Technical school diploma) 4 (Associate degree) 5 (Bachelors degree) 6 (Professional degree) 7 (Doctorate),,NA,NA,NA
+q5_1,apu_1,Beef,binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_2,apu_2,Pork (incl. bacon),binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_3,apu_3,Mutton / Lamb / Goat,binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_4,apu_4,"Game meat (e.g. venison, kangaroo)",binary,1,2,1 (Yes) 2 (No),NA,No,Vegan,NA
+q5_5,apu_5,Poultry (Chicken / Duck / Turkey),binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_6,apu_6,Fish,binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_7,apu_7,Shellfish and other seafood,binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_8,apu_8,Reptile or amphibian (e.g. frog) meat,binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_9,apu_9,"Insect (e.g. crickets, grubs) or molluscs (e.g. snails)",binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_10,apu_10,Eggs,binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_11,apu_11,"Milk (Cow, Goat, or other)",binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_12,apu_12,Cheese,binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_13,apu_13,Butter,binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_14,apu_14,Honey,binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_15,apu_15,"Animal fats (e.g. in cooking, candles or soaps)",binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_16,apu_16,Wool,binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_17,apu_17,Leather,binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_18,apu_18,Fur,binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_19,apu_19,"Fruits, vegetables, or nuts fertilised by animals (e.g. Avocado, almonds)",binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_20,apu_20,Silk,binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_21,apu_21,Feathers (e.g. in down pillows),binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_22,apu_22,Lanolin (e.g. in Skincare products),binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_23,apu_23,Products coloured red with Carmine\Cochineal,binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_24,apu_24,"Gelatine (e.g. in jelly, foods, or cosmetics)",binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_25,apu_25,"Beeswax (e.g. in candles, cosmetics, or skincare products)",binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_26,apu_26,Ambergris (e.g. in perfume),binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_27,apu_27,Isinglass (e.g. in white wine),binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_28,apu_28,Medicines tested on animals,binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_29,apu_29,Skincare products / cosmetics tested on animals,binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_30,apu_30,Vaccines cultured in eggs (e.g. fluvax),binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_31,apu_31,Smoking ,binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q5_32,apu_32,"Medication containing animal products (e.g. lactose, gelatine)",binary,1,2,1 (Yes) 2 (No),,No,Vegan,NA
+q25,describ_diet,What term best describes your diet? ,multiple,1,4,1 (Omnivore) 2 (Flexitarian) 3 (Vegetarian) 4 (Vegan),,No,Self described diet,NA
+q25_5_text,describ_diet_free,Not listed (please specify),free,NA,NA,NA,NA,No,Self described diet,NA
+q26,belief_sys,What belief system do you subscribe to? ,multiple,1,7,1 (Atheist) 2 (Agnostic) 3 (Christianity) 4 (Islam) 5 (Judaism) 6 (Buddhism) 7 (Hinduism) 8 (Sikhism),NA,No,Religion,NA
+q26_9_text,belief_sys_free,Not listed (please specify),free,NA,NA,NA,NA,No,Religion,NA
+q8_1,health_1,I am concerned about gaining weight,likert,1,7,1 (Strongly disagree) 7 (Strongly agree),,No,Health concern,https://www.sciencedirect.com/science/article/pii/S0950329398000433
+q8_2,health_2,I am concerned about getting a lot of fat in my food,likert,1,7,1 (Strongly disagree) 7 (Strongly agree),,No,Health concern ,https://www.sciencedirect.com/science/article/pii/S0950329398000433
+q8_3,health_3,I am concerned about getting many calories,likert,1,7,1 (Strongly disagree) 7 (Strongly agree),,No,Health concern,https://www.sciencedirect.com/science/article/pii/S0950329398000433
+q8_4,health_4,I am concerned about the risk of high blood pressure,likert,1,7,1 (Strongly disagree) 7 (Strongly agree),,No,Health concern ,https://www.sciencedirect.com/science/article/pii/S0950329398000433
+q8_5,health_5,I am concerned about risk of coronary heart disease,likert,1,7,1 (Strongly disagree) 7 (Strongly agree),,No,Health concern ,https://www.sciencedirect.com/science/article/pii/S0950329398000433
+q8_6,health_6,I am not concerned about getting a lot of salt in my food,likert,1,7,1 (Strongly disagree) 7 (Strongly agree),,Yes,Health concern ,https://www.sciencedirect.com/science/article/pii/S0950329398000433
+q8_7,health_7,I am concerned about getting a lot of cholesterol in my food,likert,1,7,1 (Strongly disagree) 7 (Strongly agree),,No,Health concern ,
+q8_8,health_8,I am concerned about getting a lot of sugar in my food,likert,1,7,1 (Strongly disagree) 7 (Strongly agree),,No,Health concern ,
+q8_9,health_9,I am concerned about getting sufficient energy in my food,likert,1,7,1 (Strongly disagree) 7 (Strongly agree),,No,Health concern ,
+q8_10,health_10,I am concerned about food attitives in my food,likert,1,7,1 (Strongly disagree) 7 (Strongly agree),,No,Health concern ,
+q23_1,eco_anth_1,One of the worst things about overpopulation is that natural areas are getting destroyed for development,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Ecocentrism,
+q23_2,eco_anth_2,I can enjoy spending time in natural settings just for the sake of being out in nature,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Anthropoicentrism,
+q23_3,eco_anth_3,Environmental threats such as deforestation and ozone depletion have been exaggerated,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,General Apathy,
+q23_4,eco_anth_4,The worst thing about the loss of the rainforest is that it will restrict the development of new medicines,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Anthropoicentrism,
+q23_5,eco_anth_5,Sometimes it makes me sad to see forests cleared for agriculture,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Anthropoicentrism,
+q23_6,eco_anth_6,It seems to me that conservationists are pessimistic and somewhat paranoid,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,General Apathy,
+q23_7,eco_anth_7,I prefer wildlife reserves to zoos,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Ecocentrism,
+q23_8,eco_anth_8,The best about camping is that it is a cheap vacation ,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Anthropoicentrism,
+q23_9,eco_anth_9,I do not think the problem of depletion of natural resources is as bad as many people make it out to be,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,General Apathy,
+q23_10,eco_anth_10,I find it hard to get too concerned about environmental issues,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,General Apathy,
+q23_11,eco_anth_11,It bothers me that humans are running out of their supply of oil ,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Anthropoicentrism,
+q23_12,eco_anth_12,I need time in nature to be happy ,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Ecocentrism,
+q23_13,eco_anth_13,"Science and technology will eventually solve our problems with pollution, overpopulation, and diminishing resources",likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Anthropoicentrism,
+q23_14,eco_anth_14,The thing that concerns me about deforestation is that there will not be enough lumber for future generations,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Anthropoicentrism,
+q23_15,eco_anth_15,I do not feel that humans are dependent on nature to survive,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,General Apathy,
+q23_16,eco_anth_16,Sometimes when I am unhappy I find comfort in nature,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Ecocentrism,
+q23_17,eco_anth_17,Most environmental problems will solve themselves given enough time,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,General Apathy,
+q23_18,eco_anth_18,I don't care about environmental problems,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,General Apathy,
+q23_19,eco_anth_19,One of the most important reasons to keep rivers and lakes clean is so that people can have a place to enjoy water sports,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Anthropoicentrism,
+q23_20,eco_anth_20,"I'm opposed to programs to preserve wilderness, reduce pollution and conserve resources",likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,General Apathy,
+q23_21,eco_anth_21,It makes me sad to see natural environments destroyed,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Ecocentrism,
+q23_22,eco_anth_22,The most important reason for conservation is human survival ,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Anthropoicentrism,
+q23_23,eco_anth_23,One of the best things about recycling is that it saves money ,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Anthropoicentrism,
+q23_24,eco_anth_24,Nature is important because of what it can contribute to the pleasure and welfare of humans,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Anthropoicentrism,
+q23_25,eco_anth_25,Too much emphasis has been placed on conservation ,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,General Apathy,
+q23_26,eco_anth_26,Nature is valuable for its own sake ,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Ecocentrism,
+q23_27,eco_anth_27,We need to preserve resources to maintain a high quality of life,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Anthropoicentrism,
+q23_28,eco_anth_28,Being out in nature is a great stress reducer to me,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Anthropoicentrism,
+q23_29,eco_anth_29,One of the most important reasons to conserve is to ensure a continued high standard of living ,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Anthropoicentrism,
+q23_30,eco_anth_30,One of the most important reasons to conserve is to preserve wild areas,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Ecocentrism,
+q23_31,eco_anth_31,Continued land development is a good idea as long as a high quality of life can be preserved,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Anthropoicentrism,
+q23_32,eco_anth_32,Sometimes animals seem almost human to me,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Anthropoicentrism,
+q23_33,eco_anth_33,Human are as much a part of the ecosystem as other animals,likert,1,7,1 (Strongly agree) 7 (Strongly disagree),,No,Anthropoicentrism,
+q9_1,moral_1,Whether or not someone suffered emotionally ,likert,1,5,1 (Not at all relevant (This consideration has nothing to do with my judgments of right and wrong) 5 (Extremely relevant (This is one of the most important factors when I judge right and wrong),,No,Moral care,
+q9_2,moral_2,Whether or not some people were treated differently than others,likert,1,5,1 (Not at all relevant (This consideration has nothing to do with my judgments of right and wrong) 5 (Extremely relevant (This is one of the most important factors when I judge right and wrong),,No,Moral fairness ,
+q9_3,moral_3,Whether or not someone's action showed love for his or her country,likert,1,5,1 (Not at all relevant (This consideration has nothing to do with my judgments of right and wrong) 5 (Extremely relevant (This is one of the most important factors when I judge right and wrong),,No,Moral loyalty ,
+q9_4,moral_4,Whether or not someone showed a lack of respect for authority ,likert,1,5,1 (Not at all relevant (This consideration has nothing to do with my judgments of right and wrong) 5 (Extremely relevant (This is one of the most important factors when I judge right and wrong),,No,Moral authority ,
+q9_5,moral_5,Whether or not someone violated standards of purity and decency ,likert,1,5,1 (Not at all relevant (This consideration has nothing to do with my judgments of right and wrong) 5 (Extremely relevant (This is one of the most important factors when I judge right and wrong),,No,Moral sanctity ,
+q9_6,moral_6,Whether or not someone was good at math,likert,1,5,1 (Not at all relevant (This consideration has nothing to do with my judgments of right and wrong) 5 (Extremely relevant (This is one of the most important factors when I judge right and wrong),,No,check,
+q9_7,moral_7,Whether or not someone cared for someone weak or vulnerable ,likert,1,5,1 (Not at all relevant (This consideration has nothing to do with my judgments of right and wrong) 5 (Extremely relevant (This is one of the most important factors when I judge right and wrong),,No,Moral care,
+q9_8,moral_8,Whether or not someone acted unfairly ,likert,1,5,1 (Not at all relevant (This consideration has nothing to do with my judgments of right and wrong) 5 (Extremely relevant (This is one of the most important factors when I judge right and wrong),,No,Moral fairness ,
+q9_9,moral_9,Whether or not someone did something to betray his or her group,likert,1,5,1 (Not at all relevant (This consideration has nothing to do with my judgments of right and wrong) 5 (Extremely relevant (This is one of the most important factors when I judge right and wrong),,No,Moral loyalty ,
+q9_10,moral_10,Whether or not someone confromed to the traditions of society ,likert,1,5,1 (Not at all relevant (This consideration has nothing to do with my judgments of right and wrong) 5 (Extremely relevant (This is one of the most important factors when I judge right and wrong),,No,Moral authority ,
+q9_11,moral_11,Whether or not someone did something disgusting,likert,1,5,1 (Not at all relevant (This consideration has nothing to do with my judgments of right and wrong) 5 (Extremely relevant (This is one of the most important factors when I judge right and wrong),,No,Moral sanctity ,
+q9_12,moral_12,Whether or not someone was cruel ,likert,1,5,1 (Not at all relevant (This consideration has nothing to do with my judgments of right and wrong) 5 (Extremely relevant (This is one of the most important factors when I judge right and wrong),,No,Moral care,
+q9_13,moral_13,Whether or not someone was denied his or her rights ,likert,1,5,1 (Not at all relevant (This consideration has nothing to do with my judgments of right and wrong) 5 (Extremely relevant (This is one of the most important factors when I judge right and wrong),,No,Moral fairness ,
+q9_14,moral_14,Whether or not someone showed a lack of loyalty ,likert,1,5,1 (Not at all relevant (This consideration has nothing to do with my judgments of right and wrong) 5 (Extremely relevant (This is one of the most important factors when I judge right and wrong),,No,Moral loyalty ,
+q9_15,moral_15,Whether or not an action caused chaos or disorder,likert,1,5,1 (Not at all relevant (This consideration has nothing to do with my judgments of right and wrong) 5 (Extremely relevant (This is one of the most important factors when I judge right and wrong),,No,Moral authority ,
+q9_16,moral_16,Whether or not someone acted in a way that God would approve of ,likert,1,5,1 (Not at all relevant (This consideration has nothing to do with my judgments of right and wrong) 5 (Extremely relevant (This is one of the most important factors when I judge right and wrong),,No,Moral sanctity ,
+q10_1,moral_17,Compassion for those who are suffering is the most crucial virtue,likert,1,5,1 (Strongly disagree) 5 (Strongly agree) ,,No,Moral care,
+q10_2,moral_18,"When the government makes laws, the number one principle should be ensuring that everyone is treated fairly",likert,1,5,1 (Strongly disagree) 5 (Strongly agree) ,,No,Moral fairness ,
+q10_3,moral_19,I am proud of my country's history ,likert,1,5,1 (Strongly disagree) 5 (Strongly agree) ,,No,Moral loyalty ,
+q10_4,moral_20,Respect for authority is something all children need to learn ,likert,1,5,1 (Strongly disagree) 5 (Strongly agree) ,,No,Moral authority ,
+q10_5,moral_21,"People should not do things that are disgusting, even if no one is harmed",likert,1,5,1 (Strongly disagree) 5 (Strongly agree) ,,No,Moral sanctity ,
+q10_6,moral_22,It is better to do good than to do bad,likert,1,5,1 (Strongly disagree) 5 (Strongly agree) ,,No,check,
+q10_7,moral_23,One of the worst things a person could do is hurt a defenseless animal,likert,1,5,1 (Strongly disagree) 5 (Strongly agree) ,,No,Moral care,
+q10_8,moral_24,Justice is the most important requirement for a society ,likert,1,5,1 (Strongly disagree) 5 (Strongly agree) ,,No,Moral fairness ,
+q10_9,moral_25,"People should be loyal to their family members, even when they have done something wrong",likert,1,5,1 (Strongly disagree) 5 (Strongly agree) ,,No,Moral loyalty ,
+q10_10,moral_26,Men and women each have different roles to play in society,likert,1,5,1 (Strongly disagree) 5 (Strongly agree) ,,No,Moral authority ,
+q10_11,moral_27,I would call some acts wrong on the grounds that they are unnatural ,likert,1,5,1 (Strongly disagree) 5 (Strongly agree) ,,No,Moral sanctity ,
+q10_12,moral_28,It can never be right to kill a human being,likert,1,5,1 (Strongly disagree) 5 (Strongly agree) ,,No,Moral care ,
+q10_13,moral_29,I think it's morally wrong that rich children inherit a lot of money while poor children inherit nothing,likert,1,5,1 (Strongly disagree) 5 (Strongly agree) ,,No,Moral fairness ,
+q10_14,moral_30,It is more important to be a team player than to express oneself,likert,1,5,1 (Strongly disagree) 5 (Strongly agree) ,,No,Moral loyalty ,
+q10_15,moral_31,"If I were a soldier and disagreed with my commanding officer's orders, I would obey anyway because that is my duty ",likert,1,5,1 (Strongly disagree) 5 (Strongly agree) ,,No,Moral authority ,
+q10_16,moral_32,Chastity is an important and valuable virtue,likert,1,5,1 (Strongly disagree) 5 (Strongly agree) ,,No,Moral sanctity ,
+q22_1,animal_attit_1,It is morally wrong to hunt wild animals just for sport,likert,1,5,1 (Strongly agree) 5 (Strongly disagree),,No,Animal attitudes,
+q22_2,animal_attit_2,I do not think that there is anything wrong with using animals in medical research,likert,1,5,1 (Strongly agree) 5 (Strongly disagree),,Yes,Animal attitudes,
+q22_3,animal_attit_3,I think it is perfectly acceptable for cattle and hogs to be raised for human consumption ,likert,1,5,1 (Strongly agree) 5 (Strongly disagree),,Yes,Animal attitudes,
+q22_4,animal_attit_4,"Basically, humans have the right to use animals as we see fit",likert,1,5,1 (Strongly agree) 5 (Strongly disagree),,Yes,Animal attitudes,
+q22_5,animal_attit_5,The slaughter of whales and dolphins should be immediately stopped even if it means some people will be put out of work,likert,1,5,1 (Strongly agree) 5 (Strongly disagree),,No,Animal attitudes,
+q22_6,animal_attit_6,I sometimes get upset when I see wild animals in cages at zoos,likert,1,5,1 (Strongly agree) 5 (Strongly disagree),,No,Animal attitudes,
+q22_7,animal_attit_7,Breeding animals for their skins is a legitimate use of animals,likert,1,5,1 (Strongly agree) 5 (Strongly disagree),,Yes,Animal attitudes,
+q22_8,animal_attit_8,Some aspects of biology can only be learned through dissecting preserved animals such as cats,likert,1,5,1 (Strongly agree) 5 (Strongly disagree),,Yes,Animal attitudes,
+q22_9,animal_attit_9,It is unethical to breed purebred dogs for petswhen millions of dogs are killed in animal shelters each year,likert,1,5,1 (Strongly agree) 5 (Strongly disagree),,No,Animal attitudes,
+q22_10,animal_attit_10,The use of animals such as rabbits for testing the safety of cosmetics and household products is unnecessary and should be stopped. ,likert,,,,,NA,NA,
+q13,feedback,"Thank you for completing the survey. We greatly value your participation within this study. If you wish to provide us some comments or feedback on the study, please use the textbox below",free,,,,,,,
